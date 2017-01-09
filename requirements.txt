@@ -1,0 +1,11 @@
+cython
+requests
+pillow
+protobuf
+-e git://github.com/kivy/kivy.git#egg=kivy
+colorama
+appdirs
+sh
+jinja2
+buildozer
+pygame

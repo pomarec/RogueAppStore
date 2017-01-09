@@ -1,0 +1,22 @@
+#:kivy 1.9.1
+
+<AppCell>:
+    BoxLayout:
+        orientation: "vertical"
+        Label:
+            id: title
+            text_size: self.size
+            halign: 'left'
+            valign: 'top'
+            max_lines: 1
+        Label:
+            id: details
+            text_size: self.size
+            halign: 'left'
+            valign: 'top'
+            max_lines: 1
+    Button:
+        id: button
+        size_hint: 0.2, 1.
+        text: "update"
+        on_press: root.on_button_press()
